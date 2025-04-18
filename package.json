@@ -11,5 +11,8 @@
   "devDependencies": {
     "typescript": "~5.7.2",
     "vite": "npm:rolldown-vite@latest"
+  },
+  "dependencies": {
+    "rollup-plugin-webpack-stats": "^2.0.4"
   }
 }
