@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "typescript": "~5.7.2",
-    "vite": "npm:rolldown-vite@latest"
+    "vite": "npm:rolldown-vite@latest",
+    "vite-plugin-node-polyfills": "^0.23.0"
   }
 }
