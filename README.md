@@ -1,21 +1,7 @@
-<h1>React Latest (Vite | TypeScript)</h1>
+# To reproduce
 
-<p>
-  This is project generated to serve as a reproduction starter for Storybook.
-</p>
-
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-vite/default-ts/after-storybook?preset=node=">
-  View it in Stackblitz
-</a>
-
-<h3>Testing instructions</h3>
-
-<p>Install dependencies:</p>
-<pre>
-  yarn
-</pre>
-
-<p>Run Storybook:</p>
-<pre>
-  yarn storybook
-</pre>
+0. `pnpm i`
+1. `pnpm build-storybook`
+2. Serve the storybook instance via `pnpm dlx server storybook-static`
+3. Open on `localhost:3000`
+4. See error in the console
