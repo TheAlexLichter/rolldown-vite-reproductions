@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "storybook:dev": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "storybook:serve": "storybook build"
+    "storybook:serve": "pnpm serve storybook-static"
   },
   "dependencies": {
     "react": "^19.1.0",
