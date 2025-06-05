@@ -12,6 +12,18 @@ const config: StorybookConfig = {
   "framework": {
     "name": "@storybook/react-vite",
     "options": {}
+  },
+  viteFinal: (config) => {
+    if (!config.build) {
+     config.build = {} 
+    } 
+    if(!config.build.rollupOptions) {
+      config.build.rollupOptions = {};
+    }
+    config.build.rollupOptions.experimental = {
+      strictExecutionOrder: true
+    };
+    return config;
   }
 };
 export default config;
